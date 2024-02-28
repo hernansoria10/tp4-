@@ -23,7 +23,7 @@ class Agenda {
 
         if (this.existeContacto(contacto)) {
             document.write("El contacto ya existe en la agenda.<br>");
-            return;
+            return;   
         }
 
         this.contactos.push(contacto);
